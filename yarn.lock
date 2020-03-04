@@ -4287,10 +4287,9 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-feed@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/feed/-/feed-4.0.0.tgz#d3c2bfb9aba3c0efacab1ed15be06b67f5c02539"
-  integrity sha512-VWtvINgG7cA91BtrGychMvxHj84nc8xS9W/PuAHlY62I8owZtcoxNaKFN+zkGl8tBsaYbxrrp4yB9DhqKNQSPw==
+"feed@git+https://github.com/sportsru/feed.git#enclosures":
+  version "4.1.0"
+  resolved "git+https://github.com/sportsru/feed.git#4ba30c0e728cef2c37d8044b286376df046f4891"
   dependencies:
     xml-js "^1.6.11"
 
